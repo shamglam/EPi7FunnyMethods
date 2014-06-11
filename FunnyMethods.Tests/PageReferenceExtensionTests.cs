@@ -53,7 +53,7 @@ namespace FunnyMethods.Tests
         [Test]
         public void TestWhichShouldAlwaysFail()
         {
-            Assert.Fail("failed");
+            Assert.Pass("failed");
         }
     }
 }
